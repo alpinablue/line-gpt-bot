@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: line-gpt-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    plan: free
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: LINE_CHANNEL_ACCESS_TOKEN
+        sync: false
+      - key: LINE_CHANNEL_SECRET
+        sync: false

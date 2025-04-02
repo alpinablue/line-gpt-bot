@@ -1,0 +1,5 @@
+flask
+openai==0.28.1
+line-bot-sdk==2.0.1
+sqlalchemy
+python-dotenv
